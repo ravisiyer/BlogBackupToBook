@@ -1,0 +1,16 @@
+In some cases, the last split file has only the end of book part. So modify code to test for last post/page and if so, include end of book part within it.
+
+Example of this case:
+Generate blog book using the following search strings for input file: 20230801-ravisiyermisc-blog.xml:
+an wang
+computer
+---
+Above search strings are combined as AND.
+
+---------
+The resultant blogbook file 20230801-ravisiyermisc-blog-BlogBook.html is of size 1216 KB.
+
+Then run Split on above blogbook output file without option to generate contents links and with Split Size set as: 200000.
+
+This will create 5 split files and the last split file: "20230801-ravisiyermisc-blog-BlogBook-Split5..html having 870 UNICODE characters written." This last split file has only the the end of book line and then blog book footer lines.
+=========================================================
