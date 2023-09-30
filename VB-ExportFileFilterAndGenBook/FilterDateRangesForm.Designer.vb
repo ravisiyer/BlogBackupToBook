@@ -44,99 +44,111 @@ Partial Class FilterDateRangesForm
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(27, 24)
+        Label1.Location = New Point(19, 14)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(627, 25)
+        Label1.Size = New Size(416, 15)
         Label1.TabIndex = 0
         Label1.Text = "Please specify date ranges for filter program. All blank entries implies no filter."
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(27, 59)
+        Label2.Location = New Point(19, 35)
+        Label2.Margin = New Padding(2, 0, 2, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(651, 50)
+        Label2.Size = New Size(423, 30)
         Label2.TabIndex = 1
         Label2.Text = "All dates may be specified as YYYY-MM-DD. E.g. 2022-01-01, 2022-12-31. Other" & vbCrLf & "formats like dd/mm/yyyy also seem to work but have not been tested much."
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(27, 127)
+        Label3.Location = New Point(19, 76)
+        Label3.Margin = New Padding(2, 0, 2, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(176, 25)
+        Label3.Size = New Size(116, 15)
         Label3.TabIndex = 2
         Label3.Text = "Start Published Date:"
         ' 
         ' StartPublishedDateTB
         ' 
-        StartPublishedDateTB.Location = New Point(209, 121)
+        StartPublishedDateTB.Location = New Point(146, 73)
+        StartPublishedDateTB.Margin = New Padding(2, 2, 2, 2)
         StartPublishedDateTB.Name = "StartPublishedDateTB"
-        StartPublishedDateTB.Size = New Size(150, 31)
+        StartPublishedDateTB.Size = New Size(106, 23)
         StartPublishedDateTB.TabIndex = 3
         ' 
         ' EndPublishedDateTB
         ' 
-        EndPublishedDateTB.Location = New Point(209, 170)
+        EndPublishedDateTB.Location = New Point(146, 102)
+        EndPublishedDateTB.Margin = New Padding(2, 2, 2, 2)
         EndPublishedDateTB.Name = "EndPublishedDateTB"
-        EndPublishedDateTB.Size = New Size(150, 31)
+        EndPublishedDateTB.Size = New Size(106, 23)
         EndPublishedDateTB.TabIndex = 5
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(27, 176)
+        Label4.Location = New Point(19, 106)
+        Label4.Margin = New Padding(2, 0, 2, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(170, 25)
+        Label4.Size = New Size(112, 15)
         Label4.TabIndex = 4
         Label4.Text = "End Published Date:"
         ' 
         ' EndUpdatedDateTB
         ' 
-        EndUpdatedDateTB.Location = New Point(209, 276)
+        EndUpdatedDateTB.Location = New Point(146, 166)
+        EndUpdatedDateTB.Margin = New Padding(2, 2, 2, 2)
         EndUpdatedDateTB.Name = "EndUpdatedDateTB"
-        EndUpdatedDateTB.Size = New Size(150, 31)
+        EndUpdatedDateTB.Size = New Size(106, 23)
         EndUpdatedDateTB.TabIndex = 9
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(27, 282)
+        Label5.Location = New Point(19, 169)
+        Label5.Margin = New Padding(2, 0, 2, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(162, 25)
+        Label5.Size = New Size(105, 15)
         Label5.TabIndex = 8
         Label5.Text = "End Updated Date:"
         ' 
         ' StartUpdatedDateTB
         ' 
-        StartUpdatedDateTB.Location = New Point(209, 227)
+        StartUpdatedDateTB.Location = New Point(146, 136)
+        StartUpdatedDateTB.Margin = New Padding(2, 2, 2, 2)
         StartUpdatedDateTB.Name = "StartUpdatedDateTB"
-        StartUpdatedDateTB.Size = New Size(150, 31)
+        StartUpdatedDateTB.Size = New Size(106, 23)
         StartUpdatedDateTB.TabIndex = 7
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(27, 233)
+        Label6.Location = New Point(19, 140)
+        Label6.Margin = New Padding(2, 0, 2, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(168, 25)
+        Label6.Size = New Size(109, 15)
         Label6.TabIndex = 6
         Label6.Text = "Start Updated Date:"
         ' 
         ' CmdRunFilter
         ' 
-        CmdRunFilter.Location = New Point(77, 342)
+        CmdRunFilter.Location = New Point(54, 205)
+        CmdRunFilter.Margin = New Padding(2, 2, 2, 2)
         CmdRunFilter.Name = "CmdRunFilter"
-        CmdRunFilter.Size = New Size(112, 34)
+        CmdRunFilter.Size = New Size(78, 26)
         CmdRunFilter.TabIndex = 10
         CmdRunFilter.Text = "Run Filter"
         CmdRunFilter.UseVisualStyleBackColor = True
         ' 
         ' CmdCancel
         ' 
-        CmdCancel.Location = New Point(234, 342)
+        CmdCancel.Location = New Point(164, 205)
+        CmdCancel.Margin = New Padding(2, 2, 2, 2)
         CmdCancel.Name = "CmdCancel"
-        CmdCancel.Size = New Size(112, 34)
+        CmdCancel.Size = New Size(78, 26)
         CmdCancel.TabIndex = 11
         CmdCancel.Text = "Cancel"
         CmdCancel.UseVisualStyleBackColor = True
@@ -144,48 +156,53 @@ Partial Class FilterDateRangesForm
         ' LblStartPublishedCDate
         ' 
         LblStartPublishedCDate.AutoSize = True
-        LblStartPublishedCDate.Location = New Point(404, 127)
+        LblStartPublishedCDate.Location = New Point(283, 76)
+        LblStartPublishedCDate.Margin = New Padding(2, 0, 2, 0)
         LblStartPublishedCDate.Name = "LblStartPublishedCDate"
-        LblStartPublishedCDate.Size = New Size(0, 25)
+        LblStartPublishedCDate.Size = New Size(0, 15)
         LblStartPublishedCDate.TabIndex = 12
         ' 
         ' LblEndPublishedCDate
         ' 
         LblEndPublishedCDate.AutoSize = True
-        LblEndPublishedCDate.Location = New Point(404, 176)
+        LblEndPublishedCDate.Location = New Point(283, 106)
+        LblEndPublishedCDate.Margin = New Padding(2, 0, 2, 0)
         LblEndPublishedCDate.Name = "LblEndPublishedCDate"
-        LblEndPublishedCDate.Size = New Size(0, 25)
+        LblEndPublishedCDate.Size = New Size(0, 15)
         LblEndPublishedCDate.TabIndex = 13
         ' 
         ' LblEndUpdatedCDate
         ' 
         LblEndUpdatedCDate.AutoSize = True
-        LblEndUpdatedCDate.Location = New Point(404, 282)
+        LblEndUpdatedCDate.Location = New Point(283, 169)
+        LblEndUpdatedCDate.Margin = New Padding(2, 0, 2, 0)
         LblEndUpdatedCDate.Name = "LblEndUpdatedCDate"
-        LblEndUpdatedCDate.Size = New Size(0, 25)
+        LblEndUpdatedCDate.Size = New Size(0, 15)
         LblEndUpdatedCDate.TabIndex = 15
         ' 
         ' LblStartUpdatedCDate
         ' 
         LblStartUpdatedCDate.AutoSize = True
-        LblStartUpdatedCDate.Location = New Point(404, 233)
+        LblStartUpdatedCDate.Location = New Point(283, 140)
+        LblStartUpdatedCDate.Margin = New Padding(2, 0, 2, 0)
         LblStartUpdatedCDate.Name = "LblStartUpdatedCDate"
-        LblStartUpdatedCDate.Size = New Size(0, 25)
+        LblStartUpdatedCDate.Size = New Size(0, 15)
         LblStartUpdatedCDate.TabIndex = 14
         ' 
         ' LblErrorMessage
         ' 
         LblErrorMessage.AutoSize = True
-        LblErrorMessage.Location = New Point(27, 402)
+        LblErrorMessage.Location = New Point(19, 241)
+        LblErrorMessage.Margin = New Padding(2, 0, 2, 0)
         LblErrorMessage.Name = "LblErrorMessage"
-        LblErrorMessage.Size = New Size(0, 25)
+        LblErrorMessage.Size = New Size(0, 15)
         LblErrorMessage.TabIndex = 16
         ' 
         ' FilterDateRangesForm
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(693, 473)
+        ClientSize = New Size(456, 258)
         Controls.Add(LblErrorMessage)
         Controls.Add(LblEndUpdatedCDate)
         Controls.Add(LblStartUpdatedCDate)
@@ -203,6 +220,7 @@ Partial Class FilterDateRangesForm
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        Margin = New Padding(2, 2, 2, 2)
         Name = "FilterDateRangesForm"
         Text = "Specify Date  Ranges for Filter"
         ResumeLayout(False)
