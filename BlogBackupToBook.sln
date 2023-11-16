@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BlogBackupToBookSetup", "BlogBackupToBookSetup\BlogBackupToBookSetup.vdproj", "{321271B6-FD14-4FB0-8EC4-D4EE9623ED87}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +20,6 @@ Global
 		{48C2CBE5-1706-4EFA-A955-1EBCFDB5004E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C2CBE5-1706-4EFA-A955-1EBCFDB5004E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C2CBE5-1706-4EFA-A955-1EBCFDB5004E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{321271B6-FD14-4FB0-8EC4-D4EE9623ED87}.Debug|Any CPU.ActiveCfg = Debug
-		{321271B6-FD14-4FB0-8EC4-D4EE9623ED87}.Release|Any CPU.ActiveCfg = Release
-		{321271B6-FD14-4FB0-8EC4-D4EE9623ED87}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
